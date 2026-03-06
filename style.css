@@ -218,6 +218,9 @@ textarea{
         justify-content: center;
         align-items: center;
     }
+    [src="images/i04.jpg"],[src="images/i08.jpg"],[src="images/i15.jpeg"]{
+    width: 100%;
+    }
     .box2{
         flex-direction: column;
         height: auto;
@@ -225,4 +228,5 @@ textarea{
     .b21,.b22,.b23{
         height: 250px;
     }
+
 }

@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.arrow {
+  position: fixed;
+  top: 85vh;
+  right: 2vw;
+}
+.arrow img {
+  display: block;
+  width: 60px;
+}
+.links{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 120px;
+    font-size: 20px;
+}
+.links div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.home{
+    color: #61794a;
+    text-decoration: none;
+}
+.home:hover{
+    color: #aac644;
+}
+[src="images/logo2.png"]{
+    width: 50px;
+}
+.imge{
+    background-image: url(images/i02.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.lay1{
+    background-color: rgba(214, 131, 6, 0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20%;
+    color: white;
+}
+.box1,.box3,.box7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 125px;
+}
+[src="images/i04.jpg"],[src="images/i08.jpg"],[src="images/i15.jpeg"]{
+    width: 90%;
+}
+.box2{
+    display: flex;
+    color: white;
+    height: 400px;
+}
+.b21,.b22,.b23{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b21{
+    background-image: url(images/i06.jpg);
+}
+.b22{
+    background-image: url(images/i07.jpg);
+}
+.b23{
+    background-image: url(images/i05.jpg);
+}
+.b211,.b222,.b233{
+    text-align: center;
+    padding: 100px 50px;
+    background-color: #61794a;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.b211:hover,.b222:hover,.b233:hover{
+    background-color: rgba(212, 255, 0, 0.493);
+}
+.box4,.box5{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.box4 > div{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.box5 > div{
+    width: 320px;
+}
+.box6{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box6 > div{
+    width: 300px;
+}
+.b4{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.b5{
+    width: 100%;
+    height: 250px;
+}
+.b6{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.ins>h2,.about>h2,.contact>h2{
+    color: #f8a715;
+    font-size: 45px;
+}
+.team{
+    color: #f8a715;
+    font-size: 60px;
+    text-align: center;
+}
+.ins h3,.about h3{
+    color: rgb(141, 139, 138);
+}
+.ins p,.about p{
+    color: #3f485d;
+    font-size: 20px;
+    width: 80%;
+}
+.aa{
+    color: white;
+    background-color: #aac644;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.aa:hover{
+    color: #aac644;
+    background-color: transparent;
+    border: 2px solid #aac644;
+}
+.end{
+    background-color: rgb(97,121,74);
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+[type="text"],[type="email"]{
+    width: 100%;
+    height: 35px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+}
+[type="submit"]{
+    color: white;
+    background-color: #aac644;
+    width: 120px;
+    height: 45px;
+}
+[type="submit"]:hover{
+    color: #aac644;
+    background-color: transparent;
+    border: 2px solid #aac644;
+}
+@media (max-width: 768px){
+    .links{
+        padding: 0 40px;
+    }
+    .lay1{
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+    .box1,.box3,.box7{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box2{
+        flex-direction: column;
+        height: auto;
+    }
+    .b21,.b22,.b23{
+        height: 250px;
+    }
+}

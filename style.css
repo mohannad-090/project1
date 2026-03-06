@@ -61,9 +61,7 @@
 }
 .box1,.box3,.box7{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 80px 125px;
+    padding: 50px 100px;
 }
 [src="images/i04.jpg"],[src="images/i08.jpg"],[src="images/i15.jpeg"]{
     width: 90%;
@@ -215,8 +213,7 @@ textarea{
     }
     .box1,.box3,.box7{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        padding: 50px 20px;
     }
     [src="images/i04.jpg"],[src="images/i08.jpg"],[src="images/i15.jpeg"]{
     width: 100%;
@@ -228,5 +225,4 @@ textarea{
     .b21,.b22,.b23{
         height: 250px;
     }
-
 }
